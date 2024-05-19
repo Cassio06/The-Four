@@ -1,10 +1,11 @@
 import React from "react";
-import { View, Text } from 'react-native';
-
-export  function SingnIn() {
-    return(
-        <View>
-            <Text>Hellos posrra</Text>
-        </View>
-    );
-}   
+import { View, Text, TextInput } from 'react-native';
+import { styles } from "./styles";
+export const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor: 'red',
+        justifyContent: 'content',
+        alignItems: 'center'
+    }
+})
