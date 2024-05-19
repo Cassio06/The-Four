@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 export  function SingnIn() {
     return(
         <View>
-            <Text>Hello</Text>
+            <Text>Hellos posrra</Text>
         </View>
     );
 }   
