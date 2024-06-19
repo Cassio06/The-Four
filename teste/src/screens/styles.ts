@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
-    container:{
+    container: {
         flex:1,
         backgroundColor: 'red',
         justifyContent: 'center',
@@ -10,5 +10,9 @@ export const styles = StyleSheet.create({
         height: 50,
         width : 200,
         borderBottomWidth: 2
+    },
+    image: {
+        width: '100%',
+        height: 360
     }
 });
